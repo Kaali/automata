@@ -58,7 +58,7 @@ Write a configuration file and a rules file using the following examples as basi
     
     import la.jarve.automata.core.Parameter
     import la.jarve.enocean.device.remote.RemoteDeviceEEPA51201
-     import eu.aleon.aleoncean.values.RockerSwitchAction
+    import eu.aleon.aleoncean.values.RockerSwitchAction
     
     declare DeviceParameterUpdatedEvent
         @role (event)
