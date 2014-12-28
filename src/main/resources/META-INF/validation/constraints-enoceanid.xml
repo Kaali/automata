@@ -1,0 +1,13 @@
+<constraint-mappings
+    xmlns="http://jboss.org/xml/ns/javax/validation/mapping" version="1.1">
+
+    <bean class="eu.aleon.aleoncean.packet.EnOceanId">
+        <constructor>
+            <parameter type="java.lang.String">
+                <constraint annotation="javax.validation.constraints.Pattern">
+                    <element name="regexp">([a-zA-Z0-9]{2}:){3}[a-zA-Z0-9]{2}</element>
+                </constraint>
+            </parameter>
+        </constructor>
+    </bean>
+</constraint-mappings>
