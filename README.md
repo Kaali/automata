@@ -60,7 +60,7 @@ Write a configuration file and a rules file using the following examples as basi
     import la.jarve.enocean.device.remote.RemoteDeviceEEPA51201
     import eu.aleon.aleoncean.values.RockerSwitchAction
     
-    declare DeviceParameterUpdatedEvent
+    declare Parameter
         @role (event)
     end
     
